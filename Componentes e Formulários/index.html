@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inatel • App da Disciplina</title>
+  <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="app-header">
+      <button class="icon-btn" aria-label="menu">☰</button>
+      <h1 class="brand">Inatel</h1>
+      <button class="icon-btn" aria-label="perfil">👤</button>
+    </header>
+
+    <main class="app-content">
+      <section class="card">
+        <h2 class="hello">Olá Raphael!</h2>
+        <ul class="notif-list">
+          <li>🧳 Você possui um armário reservado com entrega para hoje...</li>
+          <li>💳 Você possui uma pendência no financeiro...</li>
+        </ul>
+      </section>
+
+      <aulas-component id="componente"></aulas-component>
+
+      <section class="card event-card">
+        <div class="event-cover" role="img" aria-label="Festa dos Alunos 2025"></div>
+        <div class="event-body">
+          <h3>Festa dos Alunos 2025</h3>
+          <p>Venha comemorar a melhor festa dos alunos de todos os tempos!</p>
+          <div class="event-meta">
+            <span>📅 18/05 às 19:00</span>
+            <span>📍 Área Esportiva</span>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script_componente.js"></script>
+</body>
+</html>
